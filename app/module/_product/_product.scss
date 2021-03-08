@@ -100,7 +100,7 @@
   }
   &__img-box {
     position: relative;
-    height: 370px;
+    // height: 370px;
     overflow: hidden;
     margin-bottom: 25px;
   }
@@ -192,7 +192,7 @@
 @media (max-width: 1050px) {
   .product-item {
     &__img-box {
-      height: 305px;
+      // height: 305px;
     }
   }
 }
@@ -206,7 +206,7 @@
   }
   .product-item {
     &__img-box {
-      height: 305px;
+      // height: 305px;
     }
   }
 }
