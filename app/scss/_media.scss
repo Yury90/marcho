@@ -53,13 +53,17 @@
       border: none;
       background-color: $accent;
       padding: 0;
-      width: 60px;
-      height: 60px;
+      width: 55px;
+      height: 55px;
       cursor: pointer;
       position: fixed;
-      right: 0;
+      right: 15px;
       z-index: 101;
       bottom: 50px;
+      border-radius: 50%;
+      img {
+        vertical-align: middle;
+      }
     }
   }
   .shop-content {
@@ -312,6 +316,9 @@
     &__items {
       grid-template-columns: repeat(1, 1fr);
     }
+  }
+  .star {
+    margin: 0;
   }
 }
 
